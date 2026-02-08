@@ -1,1 +1,0 @@
-from allennlp.predictors.predictor import Predictor

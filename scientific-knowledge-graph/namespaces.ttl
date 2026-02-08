@@ -1,0 +1,10 @@
+@prefix : <http://example.org/biokg/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix snomed: <http://snomed.info/id/> .
+@prefix loinc: <http://loinc.org/rdf/> .
+@prefix hpo: <http://purl.obolibrary.org/obo/HP_> .
+@prefix umls: <http://linkedlifedata.com/resource/umls/id/> .

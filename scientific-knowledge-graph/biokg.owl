@@ -1,0 +1,43 @@
+@prefix : <http://example.org/biokg/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+@prefix snomed: <http://snomed.info/id/> .
+@prefix hpo: <http://purl.obolibrary.org/obo/HP_> .
+
+### Core classes
+:Patient a owl:Class .
+:LabMeasurement a owl:Class .
+:Phenotype a owl:Class .
+:Disease a owl:Class .
+
+### Properties
+:hasLabMeasurement a owl:ObjectProperty ;
+  rdfs:domain :Patient ;
+  rdfs:range :LabMeasurement .
+
+:hasPhenotype a owl:ObjectProperty ;
+  rdfs:domain :Patient ;
+  rdfs:range :Phenotype .
+
+:indicatesDisease a owl:ObjectProperty ;
+  rdfs:domain :Phenotype ;
+  rdfs:range :Disease .
+
+:hasValue a owl:DatatypeProperty .
+
+:usesTest a owl:ObjectProperty .
+
+### Diseases (hierarchy)
+:DiabetesMellitus a :Disease ;
+  owl:sameAs snomed:44054006 .
+
+:Type2DiabetesMellitus a :Disease ;
+  owl:sameAs snomed:73211009 ;
+  rdfs:subClassOf :DiabetesMellitus .
+
+:GenomicVariant a owl:Class .
+:hasVariant a owl:ObjectProperty .
+:affectsGene a owl:ObjectProperty .
+

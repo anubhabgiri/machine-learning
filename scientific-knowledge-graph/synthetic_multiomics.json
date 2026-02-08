@@ -1,0 +1,1130 @@
+[
+  {
+    "patient_id": "P001",
+    "genomics": [
+      {
+        "gene": "TP53",
+        "variant": "TP53_var1",
+        "type": "indel",
+        "zygosity": "heterozygous",
+        "significance": "pathogenic"
+      },
+      {
+        "gene": "EGFR",
+        "variant": "EGFR_var1",
+        "type": "SNV",
+        "zygosity": "heterozygous",
+        "significance": "VUS"
+      },
+      {
+        "gene": "INS",
+        "variant": "INS_var1",
+        "type": "SNV",
+        "zygosity": "heterozygous",
+        "significance": "pathogenic"
+      }
+    ],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": 0.6
+      },
+      {
+        "gene": "TP53",
+        "log2fc": -0.17
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": 0.78
+      },
+      {
+        "gene": "INS",
+        "log2fc": 1.83
+      },
+      {
+        "gene": "APOE",
+        "log2fc": -0.28
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 1.5
+      },
+      {
+        "protein": "TP53",
+        "abundance": 3.1
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 2.24
+      },
+      {
+        "protein": "INS",
+        "abundance": 1.37
+      },
+      {
+        "protein": "APOE",
+        "abundance": 2.05
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 98.4
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.6
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 5.0,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 98.4,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P002",
+    "genomics": [
+      {
+        "gene": "BRCA1",
+        "variant": "BRCA1_var1",
+        "type": "SNV",
+        "zygosity": "homozygous",
+        "significance": "pathogenic"
+      }
+    ],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": -2.3
+      },
+      {
+        "gene": "TP53",
+        "log2fc": -2.07
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": -0.67
+      },
+      {
+        "gene": "INS",
+        "log2fc": -1.22
+      },
+      {
+        "gene": "APOE",
+        "log2fc": 0.38
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 1.15
+      },
+      {
+        "protein": "TP53",
+        "abundance": 0.94
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 2.96
+      },
+      {
+        "protein": "INS",
+        "abundance": 1.51
+      },
+      {
+        "protein": "APOE",
+        "abundance": 1.69
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 74.4
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.54
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 4.9,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 74.4,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P003",
+    "genomics": [],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": -1.38
+      },
+      {
+        "gene": "TP53",
+        "log2fc": 0.45
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": -0.72
+      },
+      {
+        "gene": "INS",
+        "log2fc": -0.35
+      },
+      {
+        "gene": "APOE",
+        "log2fc": -0.72
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 3.46
+      },
+      {
+        "protein": "TP53",
+        "abundance": 1.64
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 1.08
+      },
+      {
+        "protein": "INS",
+        "abundance": 2.29
+      },
+      {
+        "protein": "APOE",
+        "abundance": 1.01
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 115.2
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 0.97
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 3.2,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 115.2,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P004",
+    "genomics": [
+      {
+        "gene": "BRCA1",
+        "variant": "BRCA1_var1",
+        "type": "indel",
+        "zygosity": "heterozygous",
+        "significance": "VUS"
+      }
+    ],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": 0.24
+      },
+      {
+        "gene": "TP53",
+        "log2fc": 0.89
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": 0.21
+      },
+      {
+        "gene": "INS",
+        "log2fc": -0.14
+      },
+      {
+        "gene": "APOE",
+        "log2fc": -0.36
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 0.91
+      },
+      {
+        "protein": "TP53",
+        "abundance": 1.24
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 1.37
+      },
+      {
+        "protein": "INS",
+        "abundance": 2.52
+      },
+      {
+        "protein": "APOE",
+        "abundance": 1.89
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 65.9
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.35
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 6.0,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 65.9,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P005",
+    "genomics": [],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": -0.81
+      },
+      {
+        "gene": "TP53",
+        "log2fc": 0.73
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": 1.24
+      },
+      {
+        "gene": "INS",
+        "log2fc": 1.12
+      },
+      {
+        "gene": "APOE",
+        "log2fc": -1.01
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 1.46
+      },
+      {
+        "protein": "TP53",
+        "abundance": 1.88
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 2.44
+      },
+      {
+        "protein": "INS",
+        "abundance": 1.36
+      },
+      {
+        "protein": "APOE",
+        "abundance": 1.53
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 82.3
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.83
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 4.2,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 82.3,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P006",
+    "genomics": [
+      {
+        "gene": "APOE",
+        "variant": "APOE_var1",
+        "type": "SNV",
+        "zygosity": "homozygous",
+        "significance": "pathogenic"
+      }
+    ],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": 1.63
+      },
+      {
+        "gene": "TP53",
+        "log2fc": -0.09
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": 1.2
+      },
+      {
+        "gene": "INS",
+        "log2fc": 0.43
+      },
+      {
+        "gene": "APOE",
+        "log2fc": -0.77
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 1.91
+      },
+      {
+        "protein": "TP53",
+        "abundance": 3.05
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 1.63
+      },
+      {
+        "protein": "INS",
+        "abundance": 3.08
+      },
+      {
+        "protein": "APOE",
+        "abundance": 0.58
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 130.5
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.38
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 5.7,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 130.5,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P007",
+    "genomics": [],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": 0.11
+      },
+      {
+        "gene": "TP53",
+        "log2fc": -2.39
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": -0.26
+      },
+      {
+        "gene": "INS",
+        "log2fc": 0.43
+      },
+      {
+        "gene": "APOE",
+        "log2fc": 1.77
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 1.34
+      },
+      {
+        "protein": "TP53",
+        "abundance": 1.19
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 1.35
+      },
+      {
+        "protein": "INS",
+        "abundance": 2.38
+      },
+      {
+        "protein": "APOE",
+        "abundance": 1.88
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 96.8
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.54
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 6.2,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 96.8,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P008",
+    "genomics": [],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": 1.16
+      },
+      {
+        "gene": "TP53",
+        "log2fc": -0.84
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": -0.39
+      },
+      {
+        "gene": "INS",
+        "log2fc": -0.47
+      },
+      {
+        "gene": "APOE",
+        "log2fc": -1.76
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 1.86
+      },
+      {
+        "protein": "TP53",
+        "abundance": 1.83
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 1.65
+      },
+      {
+        "protein": "INS",
+        "abundance": 1.5
+      },
+      {
+        "protein": "APOE",
+        "abundance": 0.94
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 99.5
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.18
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 5.2,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 99.5,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P009",
+    "genomics": [
+      {
+        "gene": "BRCA1",
+        "variant": "BRCA1_var1",
+        "type": "SNV",
+        "zygosity": "heterozygous",
+        "significance": "pathogenic"
+      }
+    ],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": -0.19
+      },
+      {
+        "gene": "TP53",
+        "log2fc": 0.48
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": 2.26
+      },
+      {
+        "gene": "INS",
+        "log2fc": 0.21
+      },
+      {
+        "gene": "APOE",
+        "log2fc": 0.31
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 1.6
+      },
+      {
+        "protein": "TP53",
+        "abundance": 0.77
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 1.63
+      },
+      {
+        "protein": "INS",
+        "abundance": 1.69
+      },
+      {
+        "protein": "APOE",
+        "abundance": 4.42
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 105.2
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.49
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 6.0,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 105.2,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P010",
+    "genomics": [
+      {
+        "gene": "INS",
+        "variant": "INS_var1",
+        "type": "SNV",
+        "zygosity": "homozygous",
+        "significance": "VUS"
+      }
+    ],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": -1.4
+      },
+      {
+        "gene": "TP53",
+        "log2fc": 1.37
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": 0.9
+      },
+      {
+        "gene": "INS",
+        "log2fc": 0.95
+      },
+      {
+        "gene": "APOE",
+        "log2fc": -1.09
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 2.89
+      },
+      {
+        "protein": "TP53",
+        "abundance": 0.94
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 2.08
+      },
+      {
+        "protein": "INS",
+        "abundance": 3.96
+      },
+      {
+        "protein": "APOE",
+        "abundance": 1.11
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 95.8
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.3
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 5.7,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 95.8,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P011",
+    "genomics": [],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": -1.86
+      },
+      {
+        "gene": "TP53",
+        "log2fc": 0.08
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": -1.27
+      },
+      {
+        "gene": "INS",
+        "log2fc": 0.57
+      },
+      {
+        "gene": "APOE",
+        "log2fc": -1.1
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 3.06
+      },
+      {
+        "protein": "TP53",
+        "abundance": 1.21
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 1.45
+      },
+      {
+        "protein": "INS",
+        "abundance": 2.28
+      },
+      {
+        "protein": "APOE",
+        "abundance": 1.01
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 115.7
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 0.86
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 7.2,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 115.7,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P012",
+    "genomics": [],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": 0.22
+      },
+      {
+        "gene": "TP53",
+        "log2fc": 0.31
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": 0.94
+      },
+      {
+        "gene": "INS",
+        "log2fc": -1.48
+      },
+      {
+        "gene": "APOE",
+        "log2fc": -1.58
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 2.03
+      },
+      {
+        "protein": "TP53",
+        "abundance": 1.86
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 1.82
+      },
+      {
+        "protein": "INS",
+        "abundance": 1.89
+      },
+      {
+        "protein": "APOE",
+        "abundance": 1.26
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 115.8
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.21
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 6.0,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 115.8,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P013",
+    "genomics": [],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": 2.24
+      },
+      {
+        "gene": "TP53",
+        "log2fc": 0.57
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": -1.43
+      },
+      {
+        "gene": "INS",
+        "log2fc": 0.79
+      },
+      {
+        "gene": "APOE",
+        "log2fc": -1.17
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 2.26
+      },
+      {
+        "protein": "TP53",
+        "abundance": 2.62
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 1.19
+      },
+      {
+        "protein": "INS",
+        "abundance": 2.42
+      },
+      {
+        "protein": "APOE",
+        "abundance": 1.94
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 130.6
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.4
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 7.9,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 130.6,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P014",
+    "genomics": [
+      {
+        "gene": "INS",
+        "variant": "INS_var1",
+        "type": "SNV",
+        "zygosity": "heterozygous",
+        "significance": "pathogenic"
+      }
+    ],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": -0.9
+      },
+      {
+        "gene": "TP53",
+        "log2fc": -1.07
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": -0.98
+      },
+      {
+        "gene": "INS",
+        "log2fc": -0.09
+      },
+      {
+        "gene": "APOE",
+        "log2fc": 0.41
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 1.84
+      },
+      {
+        "protein": "TP53",
+        "abundance": 2.3
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 1.66
+      },
+      {
+        "protein": "INS",
+        "abundance": 2.95
+      },
+      {
+        "protein": "APOE",
+        "abundance": 1.48
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 178.0
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.16
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 6.4,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 178.0,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "patient_id": "P015",
+    "genomics": [
+      {
+        "gene": "EGFR",
+        "variant": "EGFR_var1",
+        "type": "indel",
+        "zygosity": "homozygous",
+        "significance": "VUS"
+      }
+    ],
+    "transcriptomics": [
+      {
+        "gene": "BRCA1",
+        "log2fc": -1.29
+      },
+      {
+        "gene": "TP53",
+        "log2fc": 0.58
+      },
+      {
+        "gene": "EGFR",
+        "log2fc": -0.27
+      },
+      {
+        "gene": "INS",
+        "log2fc": 0.86
+      },
+      {
+        "gene": "APOE",
+        "log2fc": 0.57
+      }
+    ],
+    "proteomics": [
+      {
+        "protein": "BRCA1",
+        "abundance": 1.6
+      },
+      {
+        "protein": "TP53",
+        "abundance": 1.18
+      },
+      {
+        "protein": "EGFR",
+        "abundance": 0.9
+      },
+      {
+        "protein": "INS",
+        "abundance": 1.38
+      },
+      {
+        "protein": "APOE",
+        "abundance": 2.32
+      }
+    ],
+    "metabolomics": [
+      {
+        "metabolite": "Glucose",
+        "concentration": 115.4
+      },
+      {
+        "metabolite": "Lactate",
+        "concentration": 1.57
+      }
+    ],
+    "labs": [
+      {
+        "test": "HbA1c",
+        "value": 4.1,
+        "unit": "%"
+      },
+      {
+        "test": "Fasting Glucose",
+        "value": 115.4,
+        "unit": "mg/dL"
+      }
+    ]
+  }
+]

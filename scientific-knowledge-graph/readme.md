@@ -1,0 +1,1 @@
+We do not reason over UMLS. We use it for CUI alignment only.

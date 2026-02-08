@@ -4,3 +4,12 @@
 /ml/notes/test-trainer
 
 *.png
+.env
+.venv
+
+*/__pycache__/*
+*.pyc
+
+scientific-knowledge-graph/output/*
+.vscode/*
+.vs/*
